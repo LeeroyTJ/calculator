@@ -32,4 +32,17 @@ h1{
 .btns {
     border: solid 2px yellow;
     height: 370px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px;
+}    
+
+button {
+    border-radius: 50%;
+    margin: 6px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
 }
