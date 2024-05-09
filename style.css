@@ -21,6 +21,7 @@ h1{
     font-weight: 900;
     border: none;
     background: none;
+    color: #000000;
 }
 
 .display {
@@ -30,19 +31,41 @@ h1{
 }
 
 .btns {
-    border: solid 2px yellow;
+    border: solid 2px #010121;
     height: 370px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
     padding: 0px;
-}    
+    background-color: #010121;
+}
+
+.operator {
+    background-color: white;
+    color: rgb(0, 0, 0)
+}
 
 button {
-    border-radius: 50%;
     margin: 6px;
     width: 60px;
     height: 60px;
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    font-size: 20px;
+    border-width: 0px;
+    color: white;
+    background-color: #010121;
 }
+
+#btn {
+    border-radius: 50%;
+}
+
+.equal-sign {
+    width: 151px;
+    border-radius: 12px;
+    background-color: #ff7300;
+}
+
