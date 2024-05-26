@@ -27,7 +27,11 @@ h1{
 .display {
     border: solid 2px #6f38f0;
     height: 80px;
+    padding: 5px;
     margin-bottom: 15px;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
 }
 
 .btns {
@@ -59,7 +63,7 @@ button {
     background-color: #010121;
 }
 
-#btn {
+.btn {
     border-radius: 50%;
 }
 
